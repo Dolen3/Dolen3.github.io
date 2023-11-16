@@ -21,3 +21,9 @@ body {
     background-color: black; 
     color: white; 
 }
+
+.ProjectBackground {
+    max-width: 800px; /* Or any other width that suits your design */
+    margin: 0 auto; /* Centers the content */
+    padding: 0 10px; /* Optional padding for better readability */
+}
