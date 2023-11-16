@@ -36,6 +36,7 @@ nav {
     background-color: tan; 
     padding: 10px; 
     text-align: center; 
+    border: 1px solid #000000; 
 }
 
 .nav-button {
@@ -69,7 +70,52 @@ nav {
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    margin: 10px; 
+    margin: 5px; 
     flex-basis: 200px; 
 }
 
+.team-member h3 {
+    margin-bottom: -10px; 
+}
+
+.team-photo {
+    margin-bottom: 10px; 
+}
+
+.originalProject {
+        display: inline-block; 
+        padding: 10px 20px; 
+        margin: 5px 0; 
+        background-color: rgb(210, 180, 140); 
+        color: rgb(0, 0, 0); 
+        text-align: center;
+        text-decoration: none; 
+        font-weight: bold;
+        border: 1px solid #000000; 
+        border-radius: 5px; 
+        transition: background-color 0.3s, color 0.3s; /
+}
+
+.originalProject:hover {
+    background-color: rgb(255, 255, 255); 
+    color: #000000; 
+}
+
+.requirementsButton {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 5px 0; 
+    background-color: rgb(210, 180, 140); 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; /
+}
+
+.requirementsButton:hover {
+background-color: rgb(255, 255, 255); 
+color: #000000; 
+}
