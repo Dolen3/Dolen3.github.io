@@ -23,7 +23,53 @@ body {
 }
 
 .ProjectBackground {
-    max-width: 800px; /* Or any other width that suits your design */
-    margin: 0 auto; /* Centers the content */
-    padding: 0 10px; /* Optional padding for better readability */
+    max-width: 800px; 
+    padding: 0 10px; 
 }
+
+.ProjectDescription {
+    max-width: 800px; 
+    padding: 0 10px; 
+}
+
+nav {
+    background-color: tan; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.nav-button {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+
+.nav-button:hover {
+    color: white; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 5px; 
+}
+
+.team-photo {
+    width: 200px; 
+    height: 400px;
+    height: auto; 
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin: 10px; 
+    flex-basis: 200px; 
+}
+
