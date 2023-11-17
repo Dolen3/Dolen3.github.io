@@ -23,12 +23,12 @@ body {
 }
 
 .ProjectBackground {
-    max-width: 800px; 
+    max-width: 600px; 
     padding: 0 10px; 
 }
 
 .ProjectDescription {
-    max-width: 800px; 
+    max-width: 600px; 
     padding: 0 10px; 
 }
 
@@ -79,8 +79,13 @@ nav {
 }
 
 .team-photo {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height, you can adjust as needed */
+    object-fit: cover; /* This will ensure the image covers the area, cropping if necessary */
+    border-radius: 50%; /* Optional, if you want circular images */
     margin-bottom: 10px; 
 }
+
 
 .originalProject {
         display: inline-block; 
@@ -119,3 +124,36 @@ nav {
 background-color: rgb(255, 255, 255); 
 color: #000000; 
 }
+
+.slideshow-container {
+    border: 2px solid #000000 !important; 
+    padding: 10px;            
+    margin: 20px 0;           
+    width: 453px;             
+    height: 405.75px;            
+    padding: 10px;            
+    margin: 20px auto;        
+    position: relative;       
+}
+
+.mySlides img {
+    width: 100%;             
+    height: auto;            
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust the height as needed */
+    margin-top: 20vh; /* Adjust the top margin to position it lower */
+}
+
+
