@@ -144,6 +144,8 @@ color: #000000;
     height: 450px;              
     padding: 10px;            
     margin: 20px auto;        
+    transform: translate(100px, -100px);  /* moves the element 20px right and 10px up */
+
 }
 
 .mySlides img {
