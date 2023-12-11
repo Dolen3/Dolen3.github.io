@@ -144,7 +144,6 @@ color: #000000;
     height: 337.5px;              
     padding: 10px;            
     margin: 20px auto;        
-    position: relative;       
 }
 
 .mySlides img {
@@ -154,8 +153,6 @@ color: #000000;
 
 .slideshow-container {
     position: absolute;
-    bottom: -100%;
-    right: 0%;
     transform: translate(-50%, -50%);
 }
 
