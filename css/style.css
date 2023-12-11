@@ -158,8 +158,10 @@ color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1280; /* Match the width of your video or adjust as needed */
+    background-image: url('../assets/bars.jpg'); /* Add the background image */
+    width: 1500px; /* Match the width of your video or adjust as needed */
     height: 800px; /* Increase the height to be more than the video height */
+    
 }
 
 .welcome-header {
