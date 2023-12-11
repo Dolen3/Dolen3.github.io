@@ -146,7 +146,7 @@ color: #000000;
     margin: 20px auto;        
     position: relative;
     left: 400px;  /* moves the element 20px to the right */
-    top: -460px;  /* moves the element 10px up */
+    top: -450px;  /* moves the element 10px up */
 }
 
 .mySlides img {
@@ -159,9 +159,8 @@ color: #000000;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/bars.jpg'); /* Add the background image */
-    width: 1500px; /* Match the width of your video or adjust as needed */
-    height: 800px; /* Increase the height to be more than the video height */
-    
+    width: 1340; /* Match the width of your video or adjust as needed */
+    height: 850px; /* Increase the height to be more than the video height */
 }
 
 .welcome-header {
