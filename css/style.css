@@ -3,6 +3,14 @@ body {
     line-height: 1.6;
 }
 
+.pemdas-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px; 
+    max-width: 80%; 
+    height: auto; 
+
+}
 
 .button {
     display: inline-block;
@@ -33,7 +41,7 @@ body {
 }
 
 nav {
-    background-color: tan; 
+    background-color: rgb(157, 157, 157); 
     padding: 10px; 
     text-align: center; 
     border: 1px solid #000000; 
@@ -91,7 +99,7 @@ nav {
         display: inline-block; 
         padding: 10px 20px; 
         margin: 5px 0; 
-        background-color: rgb(210, 180, 140); 
+        background-color: rgb(157, 157, 157); 
         color: rgb(0, 0, 0); 
         text-align: center;
         text-decoration: none; 
@@ -112,7 +120,7 @@ nav {
     align-items: center;
     padding: 10px 20px; 
     margin: 5px 0; 
-    background-color: rgb(210, 180, 140); 
+    background-color: rgb(157, 157, 157); 
     color: rgb(0, 0, 0); 
     text-align: center;
     text-decoration: none; 
@@ -132,8 +140,8 @@ color: #000000;
     border: 2px solid #000000 !important; 
     padding: 10px;            
     margin: 20px 0;           
-    width: 453px;             
-    height: 405.75px;            
+    width: 560px;             
+    height: 337.5px;              
     padding: 10px;            
     margin: 20px auto;        
     position: relative;       
@@ -146,8 +154,8 @@ color: #000000;
 
 .slideshow-container {
     position: absolute;
-    top: 38%;
-    left: 75%;
+    bottom: -172%;
+    right: -15%;
     transform: translate(-50%, -50%);
 }
 
@@ -155,8 +163,14 @@ color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; 
-    margin-top: 20vh; 
+    background-image: url('../assets/bars.jpg'); /* Add the background image */
+    width: 1340; /* Match the width of your video or adjust as needed */
+    height: 780px; /* Increase the height to be more than the video height */
 }
 
-
+.welcome-header {
+    text-align: center; 
+    font-size: 2em; 
+    color: #000; 
+    font-family: 'YourFontName', Black Ops One    ; /* Use the font-family provided by Google Fonts */
+}
