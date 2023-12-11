@@ -154,8 +154,8 @@ color: #000000;
 
 .slideshow-container {
     position: absolute;
-    bottom: -172%;
-    right: -15%;
+    bottom: -100%;
+    right: 0%;
     transform: translate(-50%, -50%);
 }
 
