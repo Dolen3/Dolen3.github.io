@@ -159,7 +159,7 @@ color: #000000;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/bars.jpg'); /* Add the background image */
-    width: 1340; /* Match the width of your video or adjust as needed */
+    width: 1920; /* Match the width of your video or adjust as needed */
     height: 850px; /* Increase the height to be more than the video height */
 }
 
