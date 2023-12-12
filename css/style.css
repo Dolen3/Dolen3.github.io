@@ -12,6 +12,25 @@ body {
 
 }
 
+.content-container {
+    display: flex;
+    align-items: start; /* Aligns items to the start of the container */
+    justify-content: space-between; /* Puts space between the two elements */
+}
+
+.text-content {
+    /* Adjust the width as needed */
+    width: 50%; 
+}
+
+.google-slides {
+    /* The iframe takes the remaining space */
+    width: 640px; /* Adjust as needed */
+    height: 379.3px; /* Adjust as needed */
+    margin-top: 120px;
+}
+
+
 .button {
     display: inline-block;
     padding: 10px 20px;
