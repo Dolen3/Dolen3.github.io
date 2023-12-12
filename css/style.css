@@ -136,23 +136,7 @@ background-color: rgb(255, 255, 255);
 color: #000000; 
 }
 
-.slideshow-container {
-    border: 2px solid #000000 !important; 
-    padding: 10px;            
-    margin: 20px 0;           
-    width: 746.6px;             
-    height: 450px;              
-    padding: 10px;            
-    margin: 20px auto;        
-    position: relative;
-    left: 400px;  /* moves the element 20px to the right */
-    top: -450px;  /* moves the element 10px up */
-}
 
-.mySlides img {
-    width: 100%;             
-    height: auto;            
-}
 
 .video-container {
     display: flex;
